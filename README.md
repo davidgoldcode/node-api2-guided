@@ -15,3 +15,13 @@ In this project we will learn how to create a very simple Web API using `Node.js
 - [ ] type `npm i` to download dependencies.
 
 Please follow along as the instructor builds the API step by step.
+
+| Features               | Non REST            | REST             |
+| :--------------------- | :------------------ | :--------------- |
+| view a list of lessons | /viewLessons        | GET /lessons     |
+| add a new lesson       | /lessons/new        | POST /lessons    |
+| update a lesson        | /update-lessons/:id | PUT /lessons/:id |
+
+/product/list
+/product/add
+/product/modify/:id
